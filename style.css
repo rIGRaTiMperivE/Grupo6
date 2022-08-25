@@ -1,6 +1,69 @@
+*{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: midnightblue;
+}
+
 #navbar{
     height: 200px;
+    position: relative;
+    outline-style: solid;
+    outline-width: 1px;
+    padding: 10px 10px 10px 10px;
+}
+#logo{
+    width: 120px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 25px;
+    outline-style: solid;
+    outline-width: 1px;
+}
+#botones{
+    width: 700px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 25px;
     position: absolute;
     outline-style: solid;
-    outline-width: 3px;
+    outline-width: 1px;
+
+}
+#footer{
+    height: 200px;
+    position: relative;
+    outline-style: solid;
+    outline-width: 1px;
+    padding: 20px 20px 20px 20px ;;
+}
+#follow{
+    width: auto;
+    height: auto;
+    margin: 20px 20px 20px 20px ;
+}
+#container{
+    width: auto;
+    height: 600px;
+    position: static;
+    margin: auto;
+    outline-style: solid;
+    outline-width: 1px;
+    padding: 10px 10px 10px 10px;
+}
+.panel{
+    height: 500px;
+    width: 540px;
+    position: absolute;
+    outline-style: solid;
+    outline-width: 1px;
+    padding: 10px 10px 10px 10px;
+}
+
+.parrafo{
+    font-size: 34px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+
+
 }
