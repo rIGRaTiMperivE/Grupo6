@@ -168,6 +168,9 @@
 /*-----------FOOTER-------*/
 
 footer{
+    display: flex;
+    flex-direction: column;
+    height: 10vw;
     margin-top: 10px;
     margin-bottom: 0px;
     background-color: #BFC0C0;
@@ -193,4 +196,5 @@ footer h5{
     font-style: italic;
     font-size: 2vh;
     padding: 10px;
+    margin-left: 20px;
 }
