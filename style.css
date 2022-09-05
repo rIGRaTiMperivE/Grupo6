@@ -165,30 +165,31 @@
     color: white;
 }
 
+
+
 /*-----------FOOTER-------*/
 
 footer{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    height: 10vw;
+    height: 8vw;
     margin-top: 10px;
     padding-top: 20px;
     margin-bottom: 0px;
     background-color: #BFC0C0;
 }
 
-footer div{
+.iconos{
+    display: flex;
     gap: 10px;
+    margin-right: 20px;
+    font-size: 3vw;
     color: #EF8354;
 }
 
-footer div i{
-    font-size: 3vw;
-}
-
-footer div i:hover{
-    transform: scale(1.2);
+.icono:hover{
+    transform: scale(1.6);
 }
 
 footer h5{
