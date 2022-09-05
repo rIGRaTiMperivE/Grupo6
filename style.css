@@ -1,7 +1,6 @@
 *{
 
     font-family: 'Raleway', sans-serif;
-    color: midnightblue;
     padding: 0;
     margin: 0;
 }
@@ -110,16 +109,88 @@
 
 }
 
-#footer{
-    height: 200px;
-    width: 100%;
-    position: relative;
-    outline-style: solid;
-    outline-width: 1px;
-    padding: 20px 20px 20px 20px ;;
+/*-----------INDEX-------*/
+
+.quiensoy{
+    margin: 20px;
 }
-#follow{
-    width: auto;
-    height: auto;
-    margin: 20px 20px 20px 20px ;
+
+.quiensoy_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.valores{
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border: dotted 1px black;
+    background-color: #EF8354;
+    color: white;
+}
+
+.iconstar{
+    font-size: 7vh;
+    color: #2D3142;
+    animation-name: cambiacolor;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cambiacolor{
+    0%{
+        color:  #4F5D75;
+    }
+
+    50%{
+        color:  #BFC0C0;
+    }
+
+    100%{
+        color: white;
+    }
+}
+
+.carousel_img{
+    height: 50vh;
+}
+
+.metricas{
+    margin: 20px;
+    background-color: #4F5D75;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+/*-----------FOOTER-------*/
+
+footer{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: #BFC0C0;
+}
+
+footer div{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    text-align: right;
+    color: #EF8354;
+}
+
+footer div i{
+    font-size: 4vh;
+}
+
+footer div i:hover{
+    transform: scale(1.2);
+}
+
+footer h5{
+    font-style: italic;
+    font-size: 2vh;
+    padding: 10px;
 }
