@@ -1,79 +1,393 @@
-*{
 
-    font-family: 'Raleway', sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
-main{
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-flow: row wrap;
 
-}
-header{
-    width: 100%;
-    padding: 20px;
-    background-color: #BFC0C0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-flow: row wrap;
-}
-/*---------NAV----------*/
 
-header nav{
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
+@media only screen and (min-width: 120px) and (max-width: 768px) {
+
+    *{
+        font-family: 'Raleway', sans-serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        background: transparent;
+    }
+
+    main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column wrap;
     
+    }
+	header{
+        width: 100%;
+        padding: 20px;
+        background-color:rgba(191, 192, 192) ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: column wrap;
+        box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 40%)inset;
+       
+    }
+        }
+
+
+     header nav{
+        width: 50%;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        align-items: center; 
+       
+       
+    }
+    
+    header nav a{
+        color: #2D3142;
+        font-weight: bolder;
+        font-size: 25px;
+        text-decoration: none;
+        padding: 10px;
+        cursor: none;
+    }
+    
+    
+    
+    header #logo img{
+        width: 200px;
+        height: 200px;
+       
+    }
+
+
+    .button {
+            width: 100%;
+            color: #EF8354;
+            border-radius: 15px;
+            padding: 10px 25px;
+            background: transparent;
+            cursor: none;
+        
+    }
+          
+    .button:hover {
+            box-shadow: 2px 2px 25px #EF8354 inset;
+    }
+          
+    .button:active {
+            box-shadow: 2px 2px 20px #EF8354 inset;
+    }
+    
+    #container{
+       
    
-}
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+    
+    .panelizq{
+        padding: 20px;
+        width:   100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+      
+    
+    }
+    .panelder{
+        padding: 20px;
+        align-items: center;
+        width:   100%;
 
-header nav a{
-    color: #2D3142;
-    font-weight: bolder;
-    text-align: center;
-    text-decoration: none;
-    text-justify: auto;
-    padding: 10px;
-    flex-grow: 1;
+    }
+    
+    
+    .parrafo{
+        font-size: 34px;
+        font-style: italic;
+        font-weight: bold;
+    
+    
+    
+    }
 
-}
 
-header #logo{
-    padding-left: 50px;
-}
+    /*FORMULARIO*/
+      #formulario {
+        background: #FFF;
+        width: fit-content;
+        box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+      }
+      
+      
+      .contact {
+        padding: .8rem;
+        overflow: hidden;
+        color: gray;
+      }
+      
+      .contact label, .contact input, .contact textarea {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;   
+      }
+      
+      .contact label {
+        font-weight: 700;
+      }
+      
+      .contact input:not([type='submit']), .contact textarea {
+        border: none;
+        border-bottom: 2px solid #EF8354;
+        margin-bottom: 10px;
+        font-size: 20px;
+        outline: none;
+        color: gray;
+      }
+      
 
-header #logo img{
-    width: 200px;
-    height: 200px;;
-}
+      .contact textarea {
+        min-width: 200px;
+        max-width: 100px;
+        min-height: 100px;
+        max-height: 100px;
+      }
+      
+      input[type='submit'] {
+        padding: 10px;
+        background: #EF8354;
+        border: none;
+        color: white;
+        font-size: 20px;
+        /* pointer-events: none; */
+        cursor: pointer;
+      
+      }
+
+
+    /*FOOTER*/
+    footer{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-top: 20px;
+        margin-bottom: 0px;
+        background-color: #BFC0C0;
+        box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 40%)inset;
+    }
+    
+    footer div{
+        gap: 10px;
+        color: #EF8354;
+    }
+    
+    footer div i{
+        font-size: 3vw;
+    }
+    
+    footer div i:hover{
+        transform: scale(1.2);
+    }
+    
+    footer h5{
+        font-style: italic;
+        font-size: 2vw;
+        padding: 10px;
+        margin-left: 20px;
+    }
+       
+    
+
 
 
   
 
-.button {
-    color: #EF8354;
-    border: 3px solid #EF8354;
-    border-radius: 10px;
-    padding: 10px 25px;
-    background: transparent;
+@media only screen and (min-width: 768px) and (max-width: 3200px) {
+    *{
+        font-family: 'Raleway', sans-serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        background: transparent;
+    }
 
-  }
-  
-  .button:hover {
-    box-shadow: 2px 2px 25px #EF8354 inset;
-  }
-  
-  .button:active {
-    box-shadow: 2px 2px 20px #EF8354 inset;
-  }
-  
+    
+    main{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-flow: row wrap;
+    
+    }
+    header{
+        width: 100%;
+        padding: 20px;
+        background-color: #BFC0C0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: row wrap;
+        box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 40%)inset;
+        
+    }
+
+    header nav{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    header nav a{
+        color: #2D3142;
+        font-weight: bolder;
+        font-size: 25px;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        cursor: none;
+    
+    }
+    
+    
+    
+    header #logo img{
+        width: 200px;
+        height: 200px;
+       
+    }
+    .button {
+        color: #EF8354;
+        padding: 10px 25px;
+        background: transparent;
+    
+    }
+      
+    .button:hover {
+        box-shadow: 2px 2px 25px #EF8354 inset;
+    }
+      
+    .button:active {
+         box-shadow: 2px 2px 20px #EF8354 inset;
+    }
+    
+    #container{     
+        display: flex;
+        flex-flow: row-reverse;
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+    
+    .panelizq{
+        padding: 20px;
+        width: 50%;
+        align-items: center;
+    
+    }
+    .panelder{
+        padding: 20px;
+        width:   50%;
+        align-items: center;
+    
+    }
+    
+    
+    
+    
+    }
+    /*FORMULARIO*/
+    #formulario {
+        background: #FFF;
+        width: fit-content;
+        box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+      }
+      
+      
+      .contact {
+        padding: .8rem;
+        overflow: hidden;
+        color: gray;
+      }
+      
+      .contact label, .contact input, .contact textarea {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;   
+      }
+      
+      .contact label {
+        font-weight: 700;
+      }
+      
+      .contact input:not([type='submit']), .contact textarea {
+        border: none;
+        border-bottom: 2px solid #EF8354;
+        margin-bottom: 10px;
+        font-size: 20px;
+        outline: none;
+        color: gray;
+      }
+      
+
+      .contact textarea {
+        min-width: 400px;
+        max-width: 200px;
+        min-height: 200px;
+        max-height: 200px;
+      }
+      
+      input[type='submit'] {
+        padding: 10px;
+        background: #EF8354;
+        border: none;
+        color: white;
+        font-size: 20px;
+        /* pointer-events: none; */
+        cursor: pointer;
+      
+      }
+
+    /*FOOTER*/
+    footer{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        height: 8vw;
+        padding-top: 20px;
+        margin-bottom: 0px;
+        background-color: #BFC0C0;
+        box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 40%)inset;
+    }
+    
+    footer div{
+        gap: 10px;
+        color: #EF8354;
+    }
+    
+    footer div i{
+        font-size: 3vw;
+    }
+    
+    footer div i:hover{
+        transform: scale(1.2);
+    }
+    
+    footer h5{
+        font-size: 2vw;
+        padding: 10px;
+        margin-left: 20px;
+    }
+	
+
+
+
+
+
 
 /*-----------INDEX-------*/
 
@@ -129,38 +443,4 @@ header #logo img{
     text-align: center;
     padding: 10px;
     color: white;
-}
-
-
-
-/*-----------FOOTER-------*/
-
-footer{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    height: 8vw;
-    margin-top: 10px;
-    padding-top: 20px;
-    margin-bottom: 0px;
-    background-color: #BFC0C0;
-}
-
-.iconos{
-    display: flex;
-    gap: 10px;
-    margin-right: 20px;
-    font-size: 3vw;
-    color: #EF8354;
-}
-
-.icono:hover{
-    transform: scale(1.6);
-}
-
-footer h5{
-    font-style: italic;
-    font-size: 2vw;
-    padding: 10px;
-    margin-left: 20px;
 }
