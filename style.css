@@ -22,7 +22,7 @@
         padding: 20px;
         background-color:rgba(191, 192, 192) ;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         flex-flow: column wrap;
         box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 40%)inset;
@@ -31,8 +31,7 @@
         }
 
 
-     header nav{
-	width:50%;     
+     header nav{     
         display: flex;
         flex-flow: row;
         justify-content: space-evenly;
@@ -225,7 +224,7 @@
         padding: 20px;
         background-color: #BFC0C0;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         flex-flow: row wrap;
         box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 40%)inset;
@@ -233,7 +232,6 @@
     }
 
     header nav{
-        width: 50%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
