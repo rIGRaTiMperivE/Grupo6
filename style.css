@@ -33,6 +33,7 @@
     }
           
     .button:hover {
+            width: fit-content;
             box-shadow: 2px 2px 25px #EF8354 inset;
     }
           
@@ -41,7 +42,10 @@
     }
     
 
-
+    iframe #maps{
+        width: 400px;
+        height: 400px;
+    }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
 
@@ -69,7 +73,7 @@
        
     }
     
-    
+
     #container{
        
    
@@ -124,112 +128,28 @@
             display: flex;
             flex-flow: row-reverse;
             flex-wrap: wrap;
-            flex-grow: 1;
+            justify-content: space-around;
         }
         
         .panelizq{
             padding: 20px;
-            width: 50%;
             align-items: center;
         
         }
         .panelder{
             padding: 20px;
-            width:   50%;
             align-items: center;
         
         }
 
     }
-    /*FORMULARIO*/
-      #formulario {
-        background: #FFF;
-        width: fit-content;
-        box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
-      }
-      
-      
-      .contact {
-        padding: .8rem;
-        overflow: hidden;
-        color: gray;
-      }
-      
-      .contact label, .contact input, .contact textarea {
-        display: block;
-        width: 100%;
-        margin-bottom: 5px;   
-      }
-      
-      .contact label {
-        font-weight: 700;
-      }
-      
-      .contact input:not([type='submit']), .contact textarea {
-        border: none;
-        border-bottom: 2px solid #EF8354;
-        margin-bottom: 10px;
-        font-size: 20px;
-        outline: none;
-        color: gray;
-      }
-      
 
-      .contact textarea {
-        min-width: 200px;
-        max-width: 100px;
-        min-height: 100px;
-        max-height: 100px;
-      }
-      
-      input[type='submit'] {
-        padding: 10px;
-        background: #EF8354;
-        border: none;
-        color: white;
-        font-size: 20px;
-        /* pointer-events: none; */
-        cursor: pointer;
-      
-      }
-
-
-    /*FOOTER*/
-    footer{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        padding-top: 20px;
-        margin-bottom: 0px;
-        background-color: #BFC0C0;
-        box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 40%)inset;
-    }
     
-    footer div{
-        gap: 10px;
-        color: #EF8354;
-    }
-    
-    footer div i{
-        font-size: 3vw;
-    }
-    
-    footer div i:hover{
-        transform: scale(1.2);
-    }
-    
-    footer h5{
-        font-style: italic;
-        font-size: 2vw;
-        padding: 10px;
-        margin-left: 20px;
-    }
-       
     /*FORMULARIO*/
     #formulario {
         background: #FFF;
-        width: fit-content;
+        width: 400px;
+        height: 500px;
         box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
       }
       
@@ -273,18 +193,17 @@
         border: none;
         color: white;
         font-size: 20px;
-        /* pointer-events: none; */
         cursor: pointer;
       
       }
 
+    
     /*FOOTER*/
     footer{
         width: 100%;
         display: flex;
         justify-content: space-between;
         flex-direction: row;
-        height: 8vw;
         padding-top: 20px;
         margin-bottom: 0px;
         background-color: #BFC0C0;
@@ -292,6 +211,7 @@
     }
     
     footer div{
+        margin-right: 40px;
         gap: 10px;
         color: #EF8354;
     }
@@ -305,10 +225,12 @@
     }
     
     footer h5{
+        font-style: italic;
         font-size: 2vw;
         padding: 10px;
         margin-left: 20px;
     }
+       
 	
 
 
