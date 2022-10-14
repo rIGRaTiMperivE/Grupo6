@@ -42,10 +42,6 @@
     }
     
 
-    iframe #maps{
-        width: 400px;
-        height: 400px;
-    }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
 
@@ -72,32 +68,7 @@
        
        
     }
-    
 
-    #container{
-       
-   
-        display: flex;
-        flex-wrap: wrap;
-        flex-grow: 1;
-    }
-    
-    .panelizq{
-        padding: 20px;
-        width:   100%;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-	    justify-content:center;
-      
-    
-    }
-    .panelder{
-        padding: 20px;
-        align-items: center;
-        width:   100%;
-
-    }
     
 }
 
@@ -123,32 +94,13 @@
         }
         
 
-        
-        #container{     
-            display: flex;
-            flex-flow: row-reverse;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-        
-        .panelizq{
-            padding: 20px;
-            align-items: center;
-        
-        }
-        .panelder{
-            padding: 20px;
-            align-items: center;
-        
-        }
-
     }
 
     
     /*FORMULARIO*/
     #formulario {
         background: #FFF;
-        width: 400px;
+        width: 75%;
         height: 550px;
         box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
       }

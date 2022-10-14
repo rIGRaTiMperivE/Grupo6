@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>travelXperience</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./bootstrap-5.2.1-dist/css/bootstrap.css">
     <link rel="stylesheet" href="./style.css">
@@ -15,7 +16,9 @@
     <script src="./script.js"></script>
     <script src="./bootstrap-5.2.1-dist/js/bootstrap.bundle.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Raleway:ital,wght@1,100&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -30,56 +33,61 @@
             </nav>
         </header>
 
-        <section id="container">
+        <section>
+
+            <div class="container text-center">
+                <div class="row col-md-12">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <form id="formulario" action="" class="contact" method="POST">
+                            <label for="nombres">Nombres</label>
+                            <input type="text" name="nombres" id="nombres">
+
+                            <label for="correo">Correo</label>
+                            <input type="text" name="correo" id="correo">
+
+                            <label for="celular">Celular</label>
+                            <input type="text" name="celular" id="celular">
+
+                            <label for="mensaje">Mensaje</label>
+                            <textarea name="mensaje" id="mensaje"></textarea>
+                            <input type="submit" value="Enviar" id="enviar">
 
 
-            <div class="panelizq">
+                        </form>
+
+                    </div>
 
 
-                <form id="formulario" action="" class="contact" method="POST">
-                    <label for="nombres">Nombres</label>
-                    <input type="text" name="nombres" id="nombres">
 
-                    <label for="correo">Correo</label>
-                    <input type="text" name="correo" id="correo">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <iframe id="maps"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=spain+(travelXperience)&amp;t=&amp;z=6&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                            style="width:75% ; height: 550px;">
+                        </iframe>
+                    </div>
+                    <div class="w-100"></div>
 
-                    <label for="celular">Celular</label>
-                    <input type="text" name="celular" id="celular">
+                </div>
 
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" id="mensaje"></textarea>
-                    <input type="submit" value="Enviar" id="enviar">
+                <div class="row col-xs-12">
+                    <div class="col-xl-12 col-xs-12">
+                        <h1>Proximos Destinos en donde puedes encontrarme</h1>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Pais</th>
+                                    <th scope="col">Ciudad</th>
+                                    <th scope="col">Fecha</th>
+                                    <th scope="col">Tipo de evento</th>
+                                </tr>
+                            </thead>
+                            <tbody id="data">
 
-
-                </form>
-            </div>
-
-
-            <div class="panelder">
-                <iframe id="maps"
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=spain+(travelXperience)&amp;t=&amp;z=6&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                    style="width:400px ; height: 550px;"></iframe>
-
-            </div>
-
-        </section>
-        <section id = "container">
-            <div class = "col-9">
-                <h1>Proximos Destinos en donde puedes encontrarme</h1>
-            <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Pais</th>
-                    <th scope="col">Ciudad</th>
-                    <th scope="col">Fecha</th>
-                    <th scope="col">Tipo de evento</th>
-                  </tr>
-                </thead>
-                <tbody id="data">
-                  
-                </tbody>
-              </table>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </section>
 
