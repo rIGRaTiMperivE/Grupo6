@@ -7,95 +7,34 @@
     }
 
         
-   header nav a{
+
+    
+    .nav-item a {
         color: #2D3142;
         font-weight: bolder;
-        font-size: 25px;
         text-decoration: none;
-        padding: 10px;
         cursor: none;
     }
-    
-    
-    
-    header #logo img{
-        width: 200px;
-        height: 200px;
-       
-    }
-       .button {
-            color: #EF8354;
-            border-radius: 15px;
-            padding: 10px 25px;
-            background: transparent;
-            cursor: none;
-        
-    }
-          
-    .button:hover {
-            width: fit-content;
-            box-shadow: 2px 2px 25px #EF8354 inset;
-    }
-          
-    .button:active {
-            box-shadow: 2px 2px 20px #EF8354 inset;
-    }
-    
 
-
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-
-
-	header{
-        font-family: 'Raleway', sans-serif;
-        padding: 20px;
-        background-color:rgba(191, 192, 192) ;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: column wrap;
-        box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 40%)inset;
-       
-    }
-        
-
-
-     header nav{     
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center; 
-       
-       
-    }
-
+    .nav-link {
+        color: #EF8354;
+        border-radius: 15px;
+        padding: 10px 25px;
+        background: transparent;
+        cursor: none;
     
 }
+.nav-link:hover {
+    width: fit-content;
+    box-shadow: 2px 2px 25px #EF8354 inset;
+}
+  
+.nav-link:active {
+    box-shadow: 2px 2px 20px #EF8354 inset;
+}
 
-    @media only screen and (min-width: 768px) and (max-width: 3200px) {
- 
-        header{
-            width: 100%;
-            padding: 20px;
-            background-color: #BFC0C0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-flow: row wrap;
-            box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 40%)inset;
-            
-        }
     
-        header nav{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-evenly;
-        }
-        
-
-    }
-
+ 
     
     /*FORMULARIO*/
     #formulario {
