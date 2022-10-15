@@ -48,6 +48,10 @@
     text-align: center;
 }
 
+.titulo{
+  margin: 20px;
+  text-align: center;
+}
     
  /*Galeria.html*/
  .wrapper {
@@ -151,129 +155,98 @@
       
       }
 
-    
-    /*FOOTER*/
-    footer{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        padding-top: 20px;
-        margin-bottom: 0px;
-        background-color: #BFC0C0;
-        box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 40%)inset;
-    }
-    
-    footer div{
-        margin-right: 40px;
-        gap: 10px;
-        color: #EF8354;
-    }
-    
-    footer div i{
-        font-size: 3vw;
-    }
-    
-    footer div i:hover{
-        transform: scale(1.2);
-    }
-    
-    footer h5{
-        font-style: italic;
-        font-size: 2vw;
-        padding: 10px;
-        margin-left: 20px;
-    }
-       
-	
+ /*-----------INDEX-------*/
 
+ .quiensoy{
+  margin: 20px;
+}
 
-
-
-
-
-/*-----------INDEX-------*/
-
-.quiensoy{
-    margin: 20px;
+.quiensoy_img{
+  width: 30vw;
+  height: 25vw;
 }
 
 .quiensoy_cont{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .valores{
-    margin: 20px;
-    text-align: center;
-    padding: 10px;
-    border: dotted 1px black;
-    background-color: #EF8354;
-    color: white;
+  margin: 20px;
+  text-align: center;
+  padding: 10px;
+  border: dotted 1px black;
+  background-color: #EF8354;
+  color: white;   
 }
 
+
 .iconstar{
-    font-size: 7vh;
-    color: #2D3142;
-    animation-name: cambiacolor;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
+  font-size: 7vh;
+  color: #2D3142;
+  animation-name: cambiacolor;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes cambiacolor{
-    0%{
-        color:  #4F5D75;
-    }
+  0%{
+      color:  #4F5D75;
+  }
 
-    50%{
-        color:  #BFC0C0;
-    }
+  50%{
+      color:  #BFC0C0;
+  }
 
-    100%{
-        color: white;
-    }
+  100%{
+      color: white;
+  }
 }
 
 .carousel_img{
-    height: 50vh;
+  height: 50vw;
+  width: 55vw;
 }
 
 .metricas{
-    margin: 20px;
-    background-color: #4F5D75;
-    text-align: center;
-    padding: 10px;
-    color: white;
+  margin: 20px;
+  background-color: #4F5D75;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-size: 3vw;
 }
 
-/*GALERIA*/
+/*-----------FOOTER-------*/
 
-h1{
-    color:#2D3142;
-    text-shadow:  0 0 25px #4F5D75;
-    font-weight: bolder;
-    text-align: center;
-}
-
-div.galeria{
-    margin: 10px 20px;
-    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0, 19);
-float: left;
-width: 350px;
+footer{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 8vw;
+  margin-top: 10px;
+  padding-top: 20px;
+  margin-bottom: 0px;
+  background-color: #BFC0C0;
 }
 
-div.galeria image{
-    width: 100%;
-    height: auto;
+.iconos{
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+  font-size: 3vw;
+  color: #EF8354;
 }
-div.galeria:hover{
-    border: 1px solid lightcoral;
-    transform: rotate(-3deg);
+
+.icono:hover{
+  transform: scale(1.6);
 }
-div.pie{
-    text-align: center;
-    text-shadow: 2px 2px 5px purple;
-    padding: 10px;
+
+footer h5{
+  font-style: italic;
+  font-size: 2vw;
+  padding: 10px;
+  margin-left: 20px;
 }
