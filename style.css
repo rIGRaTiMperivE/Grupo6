@@ -231,10 +231,11 @@ footer{
   justify-content: space-between;
   flex-direction: row;
   height: 8vw;
-  margin-top: 10px;
+  margin-top: auto;
   padding-top: 20px;
   margin-bottom: 0px;
   background-color: #BFC0C0;
+  
 }
 
 .iconos{
