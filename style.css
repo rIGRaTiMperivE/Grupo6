@@ -223,8 +223,8 @@
   color: white;
   font-size: 3vw;
 }
-/*------------clientes--------*/
-.clientes{
+
+section {
   display:flex;
    flex-wrap:wrap;
     min-height:100vh;
