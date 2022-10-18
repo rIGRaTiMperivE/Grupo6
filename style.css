@@ -219,7 +219,7 @@
   margin: 20px;
   background-color: #4F5D75;
   text-align: center;
-  padding: 10px;
+  padding:10px;
   color: white;
   font-size: 3vw;
 }
@@ -231,11 +231,11 @@ footer{
   justify-content: space-between;
   flex-direction: row;
   height: fit-content;
-  width:100%
+  width:100%;
   position:absolute;
   margin-top: auto;
   padding-top: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   background-color: #BFC0C0;
 box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 40%)inset;
   
@@ -243,6 +243,7 @@ box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 40%)inset;
 
 .iconos{
   display: flex;
+  height: fit-content;
   gap: 20px;
   margin-right: 20px;
   font-size: 3vw;
