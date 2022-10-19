@@ -223,8 +223,7 @@
   color: white;
   font-size: 3vw;
 }
-
-section {
+.clientes .galeria .contacto {
   display:flex;
    flex-wrap:wrap;
     min-height:100vh;
