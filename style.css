@@ -231,6 +231,31 @@
     min-height:100vh;
 flex:1;
 }
+
+.grid-container{
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.grid-item{
+  padding: 20px;
+}
+
+.card img{
+  height: 27rem;
+  object-fit: cover;
+}
+
+.card-body{
+margin: 10px;
+text-align: center;
+}
+
+.card-title{
+  font-weight: bolder;
+}
 /*-----------FOOTER-------*/
 
 footer{
