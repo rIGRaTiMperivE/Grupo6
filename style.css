@@ -237,7 +237,8 @@ flex:1;
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  overflow-x: scroll;
 }
 .grid-item{
   padding: 20px;
