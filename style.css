@@ -164,12 +164,10 @@
 .quiensoy_img{
   width: 30vw;
   height: 25vw;
+   object-fit:cover;
 }
 
-.quiensoy_img{
-    width: 30vw;
-    height: 25vw;
-}
+
 
 .quiensoy_cont{
   display: flex;
