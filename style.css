@@ -219,6 +219,8 @@
 }
 
 .revistas > img{
+   position:absolute;
+   height : 500px;
     top: 0;
     left: calc(50% - 100px);
     opacity: 0;
