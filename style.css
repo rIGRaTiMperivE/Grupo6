@@ -222,7 +222,7 @@
    position:absolute;
    height : 500px;
     top: 0;
-    left: calc(50% - 100px);
+    left: calc(50% - 200px);
     opacity: 0;
     animation: display 10s infinite;
     object-fit: cover;
