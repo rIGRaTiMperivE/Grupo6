@@ -387,9 +387,7 @@ footer h5{
     padding: 0;
     margin-bottom: 50px;
 }
-.contenedor_fila{
-  margin: 0px;
-}
+
 
 }
 
@@ -402,5 +400,4 @@ footer h5{
   flex-grow: 1;
   padding: 50px;
   width: 100%;
-  margin: 50px;
 }
