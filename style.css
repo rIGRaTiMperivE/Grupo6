@@ -211,10 +211,9 @@
   }
 }
 
-
 .revistas{
     position: relative;
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-grow: 1;
     flex-flow: row;
@@ -223,12 +222,12 @@
 
 .revistas > img{
    position:absolute;
-   height : 500px;
+   height : 450px;
     top: 0;
-    left: calc(50% - 200px);
+    left: calc(50% - 150px);
     opacity: 0;
     animation: display 10s infinite;
-    object-fit: cover;
+    object-fit: scale-down;
 
 }
 
